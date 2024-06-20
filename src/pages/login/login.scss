@@ -1,0 +1,26 @@
+.login__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    gap: 30px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #ddd;
+    input,
+    button {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+    button {
+        background: #dedede;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}

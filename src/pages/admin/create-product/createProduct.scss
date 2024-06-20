@@ -1,0 +1,23 @@
+.create {
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 500px;
+        padding: 50px;
+        input,
+        textarea {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+}
